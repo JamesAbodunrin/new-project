@@ -6,11 +6,13 @@ NeonFibre Training Portal (MVP) is a gated, admin-reviewed training platform whe
 ##Problem + Goals
 
 #Problems:
+
 NeonFibre needs a structured system to:
 - Ensure trainees complete and demonstrate understanding before progressing
 - Capture both submissions and qualitative feedback
 - Maintain manual control over training quality without overengineering
-#Existing informal tools do not enforce progression, feedback loops, or retry logic.
+
+Existing informal tools do not enforce progression, feedback loops, or retry logic.
 
 #Goals
 - Enforce sequential, locked training progression

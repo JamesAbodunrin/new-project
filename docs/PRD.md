@@ -10,7 +10,7 @@ NeonFibre needs a structured system to:
 - Ensure trainees complete and demonstrate understanding before progressing
 - Capture both submissions and qualitative feedback
 - Maintain manual control over training quality without overengineering
-Existing informal tools do not enforce progression, feedback loops, or retry logic.
+#Existing informal tools do not enforce progression, feedback loops, or retry logic.
 
 #Goals
 - Enforce sequential, locked training progression
@@ -35,43 +35,43 @@ Existing informal tools do not enforce progression, feedback loops, or retry log
 - View all trainee submissions by training
 - Review text and file submissions
 - Provide structured feedback:
-    Areas to amend
-    Areas done well / improvements
+    * Areas to amend
+    * Areas done well / improvements
 - Approve or reject submissions
 - Decide if a training allows:
-    One attempt only
-    Multiple attempts with re-approval
+    * One attempt only
+    * Multiple attempts with re-approval
 - Control progression implicitly through approval
 
 
 ##MVP Scope
 
 - Authentication:
-    Pre-created trainee accounts
-    Email-based password reset / change
+    * Pre-created trainee accounts
+    * Email-based password reset / change
 - Trainee dashboard:
-    List of trainings in sequence
-    Status per training:
-        Not Started
-        Started (with progress in percentage)
-        Submitted
-        Pending Review
-        Approved
-        Rejected
+    * List of trainings in sequence
+    * Status per training:
+        - Not Started
+        - Started (with progress in percentage)
+        - Submitted
+        - Pending Review
+        - Approved
+        - Rejected
 - Training submission:
-    Mandatory text response
-    File upload support
-    Optional link field
+    * Mandatory text response
+    * File upload support
+    * Optional link field
 - Admin review interface:
-    View submissions per trainee and training
-    Read text responses
-    Download/view files
-    Enter feedback (approval or rejection)
+    * View submissions per trainee and training
+    * Read text responses
+    * Download/view files
+    * Enter feedback (approval or rejection)
 - Attempt logic:
-    Admin-configurable per training (single or multiple attempts)
-    Re-submission allowed only if enabled
+    * Admin-configurable per training (single or multiple attempts)
+    * Re-submission allowed only if enabled
 - Training gating:
-    Next training unlocks only after approval of current training
+    * Next training unlocks only after approval of current training
 
 
 ##Out of Scope
@@ -95,8 +95,8 @@ Existing informal tools do not enforce progression, feedback loops, or retry log
 3. Submits Training 1 (text + file, optional link)
 4. Status changes to Pending Review
 5. Receives:
-    Approval feedback → Training 2 unlocked
-    Rejection feedback → Can re-submit if allowed
+    * Approval feedback → Training 2 unlocked
+    * Rejection feedback → Can re-submit if allowed
 
 #Admin Workflow
 1. Admin logs in
@@ -104,8 +104,8 @@ Existing informal tools do not enforce progression, feedback loops, or retry log
 3. Opens a trainee’s submission
 4. Reviews text and files
 5. Adds feedback:
-    Strengths / improvements
-    Required amendments (if rejected)
+    * Strengths / improvements
+    * Required amendments (if rejected)
 6. Marks submission as Approved or Rejected
 7. System updates trainee progression automatically
 

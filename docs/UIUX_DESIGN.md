@@ -5,25 +5,15 @@
 | Screen                 |  Purpose                                             | Primary CTA           |
 |------------------------|------------------------------------------------------|-----------------------|
 | Login                  | Allow trainees and admins to authenticate            |  Log in               |
-|------------------------|------------------------------------------------------|-----------------------|
 | Forgot Password        | Enable password reset via email verification         |  Send reset link      |
-|------------------------|------------------------------------------------------|-----------------------|
 | Reset Password         | Set a new password after email verification          |  Update password      |
-|------------------------|------------------------------------------------------|-----------------------|
 | Trainee Dashboard      | Show training progression and lock/unlock state      |  Continue Training    |
-|------------------------|------------------------------------------------------|-----------------------|
 | Training Detail        | Display training instructions and submission form    |  Submit Training      |
-|------------------------|------------------------------------------------------|-----------------------|
 | Submission Confirmation| Confirm successful submission                        |  Back to Dashboard    |
-|------------------------|------------------------------------------------------|-----------------------|
 | Submission Locked State| Explain why next training is locked                  |  View Feedback        |
-|------------------------|------------------------------------------------------|-----------------------|
 | Feedback View          | Show admin feedback on rejected or approved training |  Resubmit Training    |
-|------------------------|------------------------------------------------------|-----------------------|
 | Admin Login            | Authenticate admin users                             |  Log in               |
-|------------------------|------------------------------------------------------|-----------------------|
 | Admin Dashboard        | Overview of trainee submissions                      |  Review Submission    |
-|------------------------|------------------------------------------------------|-----------------------|
 | Submission Review      | Review, approve, or reject a submission              |  Approve / Reject     |
 
 
